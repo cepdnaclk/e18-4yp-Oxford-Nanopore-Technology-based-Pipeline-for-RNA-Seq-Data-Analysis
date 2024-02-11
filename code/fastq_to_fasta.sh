@@ -39,15 +39,15 @@ if [ -d "$input" ]; then
     fi
 
     # Concatenate all .fasta files into a single file named all.fasta
-    echo "Merging all .fasta files"
-    cat "$output"/*.fasta > "$output/$cleaned_data.fasta"
+    # echo "Merging all .fasta files"
+    # cat "$output"/*.fasta > "$output/$cleaned_data.fasta"
 
-    # Check if merging was successful and display file name
-    if [ $? -eq 0 ]; then
-        echo "Successfully merged all .fasta files into $cleaned_data.fasta"
-    else
-        echo "Failed to merge .fasta files"
-    fi
+    # # Check if merging was successful and display file name
+    # if [ $? -eq 0 ]; then
+    #     echo "Successfully merged all .fasta files into $cleaned_data.fasta"
+    # else
+    #     echo "Failed to merge .fasta files"
+    # fi
 elif [ -f "$input" ]; then
     seqtk seq -a "$input" > "$output/$cleaned_data.fasta"
 else
