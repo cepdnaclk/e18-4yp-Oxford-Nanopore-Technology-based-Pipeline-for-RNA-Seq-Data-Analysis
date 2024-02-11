@@ -37,6 +37,6 @@ if [ -d "$output" ]; then
 elif [ -f "$output" ]; then
     seqtk seq -a "$input" > "$output/$cleaned_data.fasta"
 else
-    echo "Invalid input. Input must be a directory or file"
+    echo "Invalid output path. output must be a directory or file"
     exit 1
 fi
