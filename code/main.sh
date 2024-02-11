@@ -9,8 +9,9 @@ fi
 dir_input=$1
 dir_output=$2
 dir_raw_data="raw_data"
-dir_fastq_data="fastq_output"
-dir_fasta_data="fasta_output"
+dir_fastq_data="uncleaned_fastq_output"
+dir_cleaned_fastq_data="cleaned_fastq_output.fastq"
+dir_fasta_data="fasta_output.fasta"
 dir_pass_barcode="pass_barcode"
 dir_fail_barcode="fail_barcode"
 
@@ -55,7 +56,12 @@ echo
 ./run_guppy_with_cuda.sh "$dir_output/$dir_raw_data" "$dir_output/$dir_fastq_data"
 
 
+# Call the script to run guppy_basecaller
+echo
+./run_data_filter.sh "$dir_output/$dir_fastq_data/pass" "$dir_output/$dir_cleaned_fastq_data"
+
+
 # Call the script to run seqtk
 echo
-./fastq_to_fasta.sh "$dir_output/$dir_fastq_data/pass" "$dir_output/$dir_fasta_data"
+./fastq_to_fasta.sh "$dir_output/$dir_cleaned_fastq_data" "$dir_output/$dir_fasta_data"
 
