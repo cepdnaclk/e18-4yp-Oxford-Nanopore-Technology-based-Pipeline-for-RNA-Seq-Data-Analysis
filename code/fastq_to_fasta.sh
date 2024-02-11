@@ -8,7 +8,7 @@ fi
 
 input=$1
 output=$2
-cleaned_data="cleaned_data"
+converted_data="converted_data"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output"
@@ -38,32 +38,32 @@ if [ -d "$input" ]; then
         exit 1
     fi
 
-    # Concatenate all .fasta files into a single file named all.fasta
-    # echo "Merging all .fasta files"
-    # cat "$output"/*.fasta > "$output/$cleaned_data.fasta"
+    Concatenate all .fasta files into a single file named all.fasta
+    echo "Merging all .fasta files"
+    cat "$output"/*.fasta > "$output/$converted_data.fasta"
 
-    # # Check if merging was successful and display file name
-    # if [ $? -eq 0 ]; then
-    #     echo "Successfully merged all .fasta files into $cleaned_data.fasta"
-    # else
-    #     echo "Failed to merge .fasta files"
-    # fi
+    # Check if merging was successful and display file name
+    if [ $? -eq 0 ]; then
+        echo "Successfully merged all .fasta files into $converted_data.fasta"
+    else
+        echo "Failed to merge .fasta files"
+    fi
 elif [ -f "$input" ]; then
-    seqtk seq -a "$input" > "$output/$cleaned_data.fasta"
+    seqtk seq -a "$input" > "$output/$converted_data.fasta"
 else
     echo "Invalid input. Input must be a directory or file"
     exit 1
 fi
 
 # Zip the merged .fasta file if it exists
-if [ -f "$output/$cleaned_data.fasta" ]; then
-    echo "Zipping $cleaned_data.fasta"
-    zip "$output/$cleaned_data.zip" "$output/$cleaned_data.fasta"
+if [ -f "$output/$converted_data.fasta" ]; then
+    echo "Zipping $converted_data.fasta"
+    zip "$output/$converted_data.zip" "$output/$converted_data.fasta"
 
     # Check if zipping was successful and display file name
     if [ $? -eq 0 ]; then
-        echo "Successfully zipped $cleaned_data.fasta as $cleaned_data.zip"
+        echo "Successfully zipped $converted_data.fasta as $converted_data.zip"
     else
-        echo "Failed to zip $cleaned_data.fasta"
+        echo "Failed to zip $converted_data.fasta"
     fi
 fi
