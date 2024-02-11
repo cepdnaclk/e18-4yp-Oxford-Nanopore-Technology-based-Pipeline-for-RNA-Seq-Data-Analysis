@@ -10,6 +10,9 @@ input=$1
 output=$2
 cleaned_data="cleaned_data"
 
+echo "$input"
+echo "$output"
+
 # Create the output directory if it doesn't exist
 mkdir -p "$output"
 
@@ -18,6 +21,7 @@ if [ -d "$output" ]; then
     # Loop through all .fastq files in the input directory
     for file in "$input"/*.fastq; do
         if [ -f "$file" ]; then
+            echo "$file"
             # Extract filename without extension
             filename=$(basename -- "$file")
             filename_noext="${filename%.*}"
