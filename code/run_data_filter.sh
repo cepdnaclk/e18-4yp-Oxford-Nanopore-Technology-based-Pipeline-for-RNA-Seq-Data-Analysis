@@ -9,7 +9,7 @@ fi
 input=$1
 output=$2
 cleaned_data="cleaned_data"
-perform_all=false
+perform_all=true
 
 # Check if the third argument is provided and set the perform_all variable accordingly
 if [ "$#" -eq 3 ]; then
