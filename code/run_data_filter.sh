@@ -46,6 +46,6 @@ if [  "$perform_all" = false  ]; then
         echo "No .fastq files found in the input directory"
         exit 1
     fi
-else [ -f "$output" ]; then
+else 
     seqtk seq -a "$input" > "$output/$cleaned_data.fastq"
 fi
