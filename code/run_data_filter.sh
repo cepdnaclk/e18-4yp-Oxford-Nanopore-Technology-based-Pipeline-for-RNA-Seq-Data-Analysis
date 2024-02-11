@@ -27,7 +27,7 @@ if [ -d "$output" ]; then
             filename_noext="${filename%.*}"
 
             # Run seqtk command on each file and save output to corresponding .fasta file
-            porechop -i ."$file" -o "$output/$filename_noext.fastq"
+            porechop -i "$file" -o "$output/$filename_noext.fastq"
         fi
     done
 
