@@ -22,6 +22,8 @@ if [ -d "$input" ]; then
             filename=$(basename -- "$file")
             filename_noext="${filename%.*}"
 
+            echo "$file"
+
             # Run seqtk command on each file and save output to corresponding .fasta file
             seqtk seq -a "$file" > "$output/$filename_noext.fasta"
         fi
