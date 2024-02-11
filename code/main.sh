@@ -58,7 +58,7 @@ dir_fail_barcode="fail_barcode"
 
 # Call the script to run guppy_basecaller
 echo
-./run_data_filter.sh "$dir_output/$dir_fastq_data/pass" "$dir_output/$dir_cleaned_fastq_data --all"
+./run_data_filter.sh "$dir_output/$dir_fastq_data/pass" "$dir_output/$dir_cleaned_fastq_data --al-all"
 
 
 # Call the script to run seqtk

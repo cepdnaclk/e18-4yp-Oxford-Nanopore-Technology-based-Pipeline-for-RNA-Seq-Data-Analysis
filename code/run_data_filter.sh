@@ -29,7 +29,6 @@ if [  "$perform_all" = false  ]; then
     # Loop through all .fastq files in the input directory
     for file in "$input"/*.fastq; do
         if [ -f "$file" ]; then
-            echo "$file"
             # Extract filename without extension
             filename=$(basename -- "$file")
             filename_noext="${filename%.*}"
@@ -47,5 +46,5 @@ if [  "$perform_all" = false  ]; then
         exit 1
     fi
 else 
-    seqtk seq -a "$input" > "$output/$cleaned_data.fastq"
+    porechop -i "$input" -o "$output/$cleaned_data.fastq"
 fi
