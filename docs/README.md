@@ -1,26 +1,23 @@
----
 layout: home
 permalink: index.html
 
-# Please update this with your repository name and title
 repository-name: e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis
-title: Oxford Nanopore Technology based Pipeline for RNA Seq Data Analysis
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Oxford Nanopore Technology-based Pipeline for RNA Seq Data Analysis
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- E/18/068, G. C. Devinda, [email](e18068@eng.pdn.ac.lk )
+- E/18/073, W. M. T. Dhananjaya, [email](e18073@eng.pdn.ac.lk )
+- E/18/214, H.K. Manahara, [email](e18214@eng.pdn.ac.lk )
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Dr. Asitha Bandaranayake, [email](asithab@eng.pdn.ac.lk)
+- Prof. Pradeepa Bandaranayake, [email](mailto:name@eng.pdn.ac.lk)
 
 #### Table of content
 
