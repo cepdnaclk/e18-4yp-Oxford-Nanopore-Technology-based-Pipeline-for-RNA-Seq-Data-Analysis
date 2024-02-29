@@ -3,8 +3,8 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-4yp-project-template
-title:
+repository-name: e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis
+title: Oxford Nanopore Technology based Pipeline for RNA Seq Data Analysis
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
