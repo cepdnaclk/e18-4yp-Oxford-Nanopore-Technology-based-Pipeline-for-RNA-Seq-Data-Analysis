@@ -1,7 +1,4 @@
-layout: home
-permalink: index.html
 
-repository-name: e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
@@ -46,6 +43,8 @@ This research conducts a thorough evaluation of RNA sequence data analysis pipel
 
 The ultimate goal of this research is to contribute to the optimization of RNA sequencing data analysis pipelines, facilitating comprehensive and precise transcriptomic analysis across various research domains. By addressing the challenges and leveraging the strengths of Nanopore sequencing technology, this research aims to advance our understanding of gene expression dynamics and its regulation.
 ## Related works
+![WhatsApp Image 2024-02-12 at 07 25 31_d330659c](https://github.com/chirangovinna/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis/assets/157230863/f5a522f5-de1c-48c7-a728-a850c5deebd9)
+
 RNA, or ribonucleic acid, is a vital molecule found in all living cells, playing essential roles in various biological processes. Unlike its counterpart DNA, RNA acts as a messenger, carrying genetic information from DNA to guide protein synthesis or directly performing catalytic functions. The analysis of RNA provides valuable insights into gene expression patterns, regulatory mechanisms, and disease mechanisms. RNA sequencing, a powerful tool in molecular biology, enables researchers to study the entire transcriptome, identifying and quantifying RNA molecules within a sample. This sequencing pipeline has revolutionized fields such as genomics, oncology, and personalized medicine, offering unparalleled opportunities for understanding diseases, discovering biomarkers, and developing targeted therapies. By unraveling the complexities of RNA, this technology contributes to advancements in healthcare, agriculture, and biotechnology, ultimately benefiting society through improved diagnostics, treatments, and bioproduction processes.
 
 In the realm of molecular biology and genetics, understanding the dynamics of gene expression is paramount for unraveling the intricacies of cellular processes and organismal development. While traditional methods have provided valuable insights into DNA sequencing, the advent of Oxford Nanopore Technology (ONT) offers a promising avenue for revolutionizing RNA sequencing (RNA-Seq) and unlocking new dimensions of gene regulation.
@@ -139,7 +138,6 @@ By following these step-by-step processes, researchers can effectively analyze R
 
 
 ## Conclusion
-Certainly! Here's a short description of each tool selected for the different steps in the RNA analysis pipeline:
 
 1. **Base calling - Guppy basecaller:**
    - Guppy basecaller is a software developed by Oxford Nanopore Technologies specifically for base calling from raw electrical signals generated during nanopore sequencing. It employs neural network algorithms to accurately interpret the electrical signals and convert them into nucleotide sequences (A, T, G, C), providing the primary data for downstream analysis.
@@ -154,6 +152,9 @@ Certainly! Here's a short description of each tool selected for the different st
    - Command Line BLAST (Basic Local Alignment Search Tool) is a widely used bioinformatics tool for comparing nucleotide or protein sequences against a database to identify homologous sequences. It enables the alignment of RNA sequences obtained from nanopore sequencing against reference genomes or transcriptomes, facilitating the identification of gene expression patterns, isoforms, and potential functional elements.
 
 By incorporating these tools into the RNA analysis pipeline, researchers can efficiently process, clean, and analyze nanopore sequencing data, ultimately enabling comprehensive insights into gene expression dynamics and regulatory mechanisms. Each tool plays a crucial role in different stages of the pipeline, collectively contributing to the accuracy, reliability, and reproducibility of gene expression analysis using Oxford Nanopore Technology.
+
+![image](https://github.com/chirangovinna/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis/assets/157230863/e8aba4e7-36ec-4ace-9907-f682abfe37f0)
+
 ## Publications
 [//]: # "Note: Uncomment each once you uploaded the files to the repository"
 
@@ -168,8 +169,8 @@ By incorporating these tools into the RNA analysis pipeline, researchers can eff
 
 [//]: # ( NOTE: EDIT THIS LINKS WITH YOUR REPO DETAILS )
 
-- [Project Repository](https://github.com/cepdnaclk/repository-name)
-- [Project Page](https://cepdnaclk.github.io/repository-name)
+- [Project Repository]([https://github.com/cepdnaclk/repository-name](https://github.com/cepdnaclk/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis))
+- [Project Page]([https://cepdnaclk.github.io/repository-name](https://cepdnaclk.github.io/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis/))
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
