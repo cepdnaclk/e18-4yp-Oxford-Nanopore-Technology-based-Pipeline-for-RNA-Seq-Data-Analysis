@@ -131,7 +131,8 @@ By following these step-by-step processes, researchers can effectively analyze R
 
 ## Experiment Setup and Implementation
 
-![workFlow](https://github.com/chirangovinna/e18-4yp-Oxford-Nanopore-Technology-based-Pipeline-for-RNA-Seq-Data-Analysis/assets/157230863/71bb5895-3b65-4db0-826a-938db13095ae)
+![updated workflow (1)](https://github.com/user-attachments/assets/c30d1a65-37d6-4f1a-b2e7-3a1718b45df5)
+
 
 
 *Porechop vs Chopper*
