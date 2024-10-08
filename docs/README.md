@@ -37,12 +37,6 @@
 
 ---
 
-<!-- 
-DELETE THIS SAMPLE before publishing to GitHub Pages !!!
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-![Sample Image](./images/sample.png) 
--->
-
 
 ## Abstract
 The regulation of gene expression dynamics is crucial for understanding cellular processes and organismal development. mRNA analysis is fundamental in deciphering the complex regulatory networks governing gene dynamics, with implications across diverse fields such as neuroscience and plant physiology. While Illumina sequencing has been extensively used for high-throughput mRNA analysis, it comes with limitations like short read lengths and PCR amplification biases. In contrast, Oxford Nanopore Technology (ONT) offers advantages such as long reads, real-time sequencing, and direct RNA sequencing, thereby enhancing the comprehensive analysis of gene expression dynamics.
@@ -51,6 +45,7 @@ This research conducts a thorough evaluation of RNA sequence data analysis pipel
 
 The ultimate goal of this research is to contribute to the optimization of RNA sequencing data analysis pipelines, facilitating comprehensive and precise transcriptomic analysis across various research domains. By addressing the challenges and leveraging the strengths of Nanopore sequencing technology, this research aims to advance our understanding of gene expression dynamics and its regulation.
 ## Related works
+
 ![story](https://github.com/user-attachments/assets/b929029e-936a-4e9c-8067-e6b53fc5f6ff)
 
 
