@@ -46,7 +46,8 @@ This research conducts a thorough evaluation of RNA sequence data analysis pipel
 The ultimate goal of this research is to contribute to the optimization of RNA sequencing data analysis pipelines, facilitating comprehensive and precise transcriptomic analysis across various research domains. By addressing the challenges and leveraging the strengths of Nanopore sequencing technology, this research aims to advance our understanding of gene expression dynamics and its regulation.
 ## Related works
 
-![story](https://github.com/user-attachments/assets/b929029e-936a-4e9c-8067-e6b53fc5f6ff)
+![story](https://github.com/user-attachments/assets/6b5ef064-5668-47ed-a54f-30a1f5785947)
+
 
 
 RNA, or ribonucleic acid, is a vital molecule found in all living cells, playing essential roles in various biological processes. Unlike its counterpart DNA, RNA acts as a messenger, carrying genetic information from DNA to guide protein synthesis or directly performing catalytic functions. The analysis of RNA provides valuable insights into gene expression patterns, regulatory mechanisms, and disease mechanisms. RNA sequencing, a powerful tool in molecular biology, enables researchers to study the entire transcriptome, identifying and quantifying RNA molecules within a sample. This sequencing pipeline has revolutionized fields such as genomics, oncology, and personalized medicine, offering unparalleled opportunities for understanding diseases, discovering biomarkers, and developing targeted therapies. By unraveling the complexities of RNA, this technology contributes to advancements in healthcare, agriculture, and biotechnology, ultimately benefiting society through improved diagnostics, treatments, and bioproduction processes.
